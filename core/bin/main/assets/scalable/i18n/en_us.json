@@ -1,0 +1,338 @@
+{
+  "scalable": {
+    "settings": {
+      "name": "Scalable",
+      "header": {
+        "players": {
+          "name": "Players"
+        },
+        "mobs": {
+          "name": "Mobs"
+        },
+        "servers": {
+          "name": "Servers"
+        },
+        "advanced": {
+          "name": "Advanced"
+        }
+      },
+      "enabled": {
+        "name": "Enabled",
+        "description": "Turns the whole addon on or off. Everything it does is local to your client."
+      },
+      "playerSize": {
+        "name": "Player Size",
+        "description": "Scales your own model. Your hitbox, reach and movement stay untouched, and nobody else sees the change."
+      },
+      "otherPlayerSize": {
+        "name": "Other Player Size",
+        "description": "Scales every other player."
+      },
+      "changeNpcSize": {
+        "name": "Change NPC Size",
+        "description": "Also scale player-shaped NPCs spawned by the server."
+      },
+      "restrictToServers": {
+        "name": "Only on certain servers",
+        "description": "Limit the scaling to the server addresses listed below."
+      },
+      "serverAddresses": {
+        "name": "Server addresses",
+        "description": "Comma separated list, for example: mc.example.com, play.example.net"
+      },
+      "mobs": {
+        "name": "Mob sizes",
+        "description": "One slider per entity type. Types that do not exist in this Minecraft version are hidden.",
+        "armorStand": {
+          "name": "Armor Stand"
+        },
+        "bat": {
+          "name": "Bat"
+        },
+        "blaze": {
+          "name": "Blaze"
+        },
+        "caveSpider": {
+          "name": "Cave Spider"
+        },
+        "chicken": {
+          "name": "Chicken"
+        },
+        "cow": {
+          "name": "Cow"
+        },
+        "creeper": {
+          "name": "Creeper"
+        },
+        "enderDragon": {
+          "name": "Ender Dragon"
+        },
+        "enderman": {
+          "name": "Enderman"
+        },
+        "endermite": {
+          "name": "Endermite"
+        },
+        "ghast": {
+          "name": "Ghast"
+        },
+        "giant": {
+          "name": "Giant"
+        },
+        "guardian": {
+          "name": "Guardian"
+        },
+        "horse": {
+          "name": "Horse"
+        },
+        "ironGolem": {
+          "name": "Iron Golem"
+        },
+        "magmaCube": {
+          "name": "Magma Cube"
+        },
+        "mooshroom": {
+          "name": "Mooshroom"
+        },
+        "ocelot": {
+          "name": "Ocelot"
+        },
+        "pig": {
+          "name": "Pig"
+        },
+        "rabbit": {
+          "name": "Rabbit"
+        },
+        "sheep": {
+          "name": "Sheep"
+        },
+        "silverfish": {
+          "name": "Silverfish"
+        },
+        "skeleton": {
+          "name": "Skeleton"
+        },
+        "slime": {
+          "name": "Slime"
+        },
+        "snowGolem": {
+          "name": "Snow Golem"
+        },
+        "spider": {
+          "name": "Spider"
+        },
+        "squid": {
+          "name": "Squid"
+        },
+        "villager": {
+          "name": "Villager"
+        },
+        "witch": {
+          "name": "Witch"
+        },
+        "wither": {
+          "name": "Wither"
+        },
+        "wolf": {
+          "name": "Wolf"
+        },
+        "zombiePigman": {
+          "name": "Zombified Piglin"
+        },
+        "zombie": {
+          "name": "Zombie"
+        },
+        "elderGuardian": {
+          "name": "Elder Guardian"
+        },
+        "evoker": {
+          "name": "Evoker"
+        },
+        "vex": {
+          "name": "Vex"
+        },
+        "vindicator": {
+          "name": "Vindicator"
+        },
+        "illusioner": {
+          "name": "Illusioner"
+        },
+        "llama": {
+          "name": "Llama"
+        },
+        "donkey": {
+          "name": "Donkey"
+        },
+        "mule": {
+          "name": "Mule"
+        },
+        "skeletonHorse": {
+          "name": "Skeleton Horse"
+        },
+        "zombieHorse": {
+          "name": "Zombie Horse"
+        },
+        "husk": {
+          "name": "Husk"
+        },
+        "stray": {
+          "name": "Stray"
+        },
+        "witherSkeleton": {
+          "name": "Wither Skeleton"
+        },
+        "polarBear": {
+          "name": "Polar Bear"
+        },
+        "shulker": {
+          "name": "Shulker"
+        },
+        "parrot": {
+          "name": "Parrot"
+        },
+        "drowned": {
+          "name": "Drowned"
+        },
+        "phantom": {
+          "name": "Phantom"
+        },
+        "turtle": {
+          "name": "Turtle"
+        },
+        "cod": {
+          "name": "Cod"
+        },
+        "salmon": {
+          "name": "Salmon"
+        },
+        "pufferfish": {
+          "name": "Pufferfish"
+        },
+        "tropicalFish": {
+          "name": "Tropical Fish"
+        },
+        "dolphin": {
+          "name": "Dolphin"
+        },
+        "panda": {
+          "name": "Panda"
+        },
+        "cat": {
+          "name": "Cat"
+        },
+        "fox": {
+          "name": "Fox"
+        },
+        "pillager": {
+          "name": "Pillager"
+        },
+        "ravager": {
+          "name": "Ravager"
+        },
+        "traderLlama": {
+          "name": "Trader Llama"
+        },
+        "wanderingTrader": {
+          "name": "Wandering Trader"
+        },
+        "bee": {
+          "name": "Bee"
+        },
+        "hoglin": {
+          "name": "Hoglin"
+        },
+        "piglin": {
+          "name": "Piglin"
+        },
+        "piglinBrute": {
+          "name": "Piglin Brute"
+        },
+        "strider": {
+          "name": "Strider"
+        },
+        "zoglin": {
+          "name": "Zoglin"
+        },
+        "axolotl": {
+          "name": "Axolotl"
+        },
+        "glowSquid": {
+          "name": "Glow Squid"
+        },
+        "goat": {
+          "name": "Goat"
+        },
+        "allay": {
+          "name": "Allay"
+        },
+        "frog": {
+          "name": "Frog"
+        },
+        "tadpole": {
+          "name": "Tadpole"
+        },
+        "warden": {
+          "name": "Warden"
+        },
+        "camel": {
+          "name": "Camel"
+        },
+        "sniffer": {
+          "name": "Sniffer"
+        },
+        "armadillo": {
+          "name": "Armadillo"
+        },
+        "bogged": {
+          "name": "Bogged"
+        },
+        "breeze": {
+          "name": "Breeze"
+        },
+        "creaking": {
+          "name": "Creaking"
+        },
+        "happyGhast": {
+          "name": "Happy Ghast"
+        },
+        "header": {
+          "vanilla": {
+            "name": "Vanilla mobs"
+          },
+          "v1_12_2": {
+            "name": "Added in 1.9 - 1.12"
+          },
+          "v1_16_5": {
+            "name": "Added in 1.13 - 1.16"
+          },
+          "v1_17_1": {
+            "name": "Added in 1.17"
+          },
+          "v1_19_4": {
+            "name": "Added in 1.19"
+          },
+          "v1_20_1": {
+            "name": "Added in 1.20"
+          },
+          "v1_20_6": {
+            "name": "Added in 1.20.5"
+          },
+          "v1_21_4": {
+            "name": "Added in 1.21.4"
+          },
+          "v1_21_8": {
+            "name": "Added in 1.21.6"
+          }
+        }
+      },
+      "advanced": {
+        "name": "Advanced",
+        "description": "Settings that reach beyond the render layer.",
+        "changeEyeHeight": {
+          "name": "Change eye height",
+          "description": "Warning: this moves your camera with your model instead of only changing the picture. Servers can measure the eye position, so anticheats may react to it. Leave this off unless you know the server allows it."
+        }
+      }
+    }
+  }
+}

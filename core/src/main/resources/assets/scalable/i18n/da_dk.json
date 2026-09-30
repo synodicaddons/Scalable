@@ -1,0 +1,338 @@
+{
+  "scalable": {
+    "settings": {
+      "name": "Scalable",
+      "header": {
+        "players": {
+          "name": "Spillere"
+        },
+        "mobs": {
+          "name": "Mobs"
+        },
+        "servers": {
+          "name": "Servere"
+        },
+        "advanced": {
+          "name": "Avanceret"
+        }
+      },
+      "enabled": {
+        "name": "Aktiveret",
+        "description": "Slår hele addonet til eller fra. Alt hvad det gør, sker lokalt i din klient."
+      },
+      "playerSize": {
+        "name": "Egen størrelse",
+        "description": "Skalerer din egen model. Hitbox, rækkevidde og bevægelse røres ikke, og ingen andre ser ændringen."
+      },
+      "otherPlayerSize": {
+        "name": "Andre spilleres størrelse",
+        "description": "Skalerer alle andre spillere."
+      },
+      "changeNpcSize": {
+        "name": "Skalér NPC'er",
+        "description": "Skalér også spillerformede NPC'er som serveren spawner."
+      },
+      "restrictToServers": {
+        "name": "Kun på bestemte servere",
+        "description": "Begræns skaleringen til de serveradresser der står nedenfor."
+      },
+      "serverAddresses": {
+        "name": "Serveradresser",
+        "description": "Kommasepareret liste, for eksempel: mc.example.com, play.example.net"
+      },
+      "mobs": {
+        "name": "Mob-størrelser",
+        "description": "Én slider pr. entity-type. Typer der ikke findes i denne Minecraft-version, er skjult.",
+        "armorStand": {
+          "name": "Rustningsstativ"
+        },
+        "bat": {
+          "name": "Flagermus"
+        },
+        "blaze": {
+          "name": "Blaze"
+        },
+        "caveSpider": {
+          "name": "Huleedderkop"
+        },
+        "chicken": {
+          "name": "Høne"
+        },
+        "cow": {
+          "name": "Ko"
+        },
+        "creeper": {
+          "name": "Creeper"
+        },
+        "enderDragon": {
+          "name": "Enderdrage"
+        },
+        "enderman": {
+          "name": "Enderman"
+        },
+        "endermite": {
+          "name": "Endermide"
+        },
+        "ghast": {
+          "name": "Ghast"
+        },
+        "giant": {
+          "name": "Kæmpe"
+        },
+        "guardian": {
+          "name": "Vogter"
+        },
+        "horse": {
+          "name": "Hest"
+        },
+        "ironGolem": {
+          "name": "Jerngolem"
+        },
+        "magmaCube": {
+          "name": "Magmakube"
+        },
+        "mooshroom": {
+          "name": "Svampeko"
+        },
+        "ocelot": {
+          "name": "Ocelot"
+        },
+        "pig": {
+          "name": "Gris"
+        },
+        "rabbit": {
+          "name": "Kanin"
+        },
+        "sheep": {
+          "name": "Får"
+        },
+        "silverfish": {
+          "name": "Sølvkræ"
+        },
+        "skeleton": {
+          "name": "Skelet"
+        },
+        "slime": {
+          "name": "Slim"
+        },
+        "snowGolem": {
+          "name": "Snegolem"
+        },
+        "spider": {
+          "name": "Edderkop"
+        },
+        "squid": {
+          "name": "Blæksprutte"
+        },
+        "villager": {
+          "name": "Landsbybo"
+        },
+        "witch": {
+          "name": "Heks"
+        },
+        "wither": {
+          "name": "Wither"
+        },
+        "wolf": {
+          "name": "Ulv"
+        },
+        "zombiePigman": {
+          "name": "Zombificeret piglin"
+        },
+        "zombie": {
+          "name": "Zombie"
+        },
+        "elderGuardian": {
+          "name": "Ældre vogter"
+        },
+        "evoker": {
+          "name": "Evoker"
+        },
+        "vex": {
+          "name": "Vex"
+        },
+        "vindicator": {
+          "name": "Vindicator"
+        },
+        "illusioner": {
+          "name": "Illusioner"
+        },
+        "llama": {
+          "name": "Lama"
+        },
+        "donkey": {
+          "name": "Æsel"
+        },
+        "mule": {
+          "name": "Muldyr"
+        },
+        "skeletonHorse": {
+          "name": "Skelethest"
+        },
+        "zombieHorse": {
+          "name": "Zombiehest"
+        },
+        "husk": {
+          "name": "Husk"
+        },
+        "stray": {
+          "name": "Stray"
+        },
+        "witherSkeleton": {
+          "name": "Witherskelet"
+        },
+        "polarBear": {
+          "name": "Isbjørn"
+        },
+        "shulker": {
+          "name": "Shulker"
+        },
+        "parrot": {
+          "name": "Papegøje"
+        },
+        "drowned": {
+          "name": "Druknet"
+        },
+        "phantom": {
+          "name": "Fantom"
+        },
+        "turtle": {
+          "name": "Skildpadde"
+        },
+        "cod": {
+          "name": "Torsk"
+        },
+        "salmon": {
+          "name": "Laks"
+        },
+        "pufferfish": {
+          "name": "Kuglefisk"
+        },
+        "tropicalFish": {
+          "name": "Tropisk fisk"
+        },
+        "dolphin": {
+          "name": "Delfin"
+        },
+        "panda": {
+          "name": "Panda"
+        },
+        "cat": {
+          "name": "Kat"
+        },
+        "fox": {
+          "name": "Ræv"
+        },
+        "pillager": {
+          "name": "Plyndrer"
+        },
+        "ravager": {
+          "name": "Ravager"
+        },
+        "traderLlama": {
+          "name": "Handelslama"
+        },
+        "wanderingTrader": {
+          "name": "Omvandrende handelsmand"
+        },
+        "bee": {
+          "name": "Bi"
+        },
+        "hoglin": {
+          "name": "Hoglin"
+        },
+        "piglin": {
+          "name": "Piglin"
+        },
+        "piglinBrute": {
+          "name": "Piglin-bøddel"
+        },
+        "strider": {
+          "name": "Strider"
+        },
+        "zoglin": {
+          "name": "Zoglin"
+        },
+        "axolotl": {
+          "name": "Axolotl"
+        },
+        "glowSquid": {
+          "name": "Lysende blæksprutte"
+        },
+        "goat": {
+          "name": "Ged"
+        },
+        "allay": {
+          "name": "Allay"
+        },
+        "frog": {
+          "name": "Frø"
+        },
+        "tadpole": {
+          "name": "Haletudse"
+        },
+        "warden": {
+          "name": "Warden"
+        },
+        "camel": {
+          "name": "Kamel"
+        },
+        "sniffer": {
+          "name": "Sniffer"
+        },
+        "armadillo": {
+          "name": "Bæltedyr"
+        },
+        "bogged": {
+          "name": "Bogged"
+        },
+        "breeze": {
+          "name": "Breeze"
+        },
+        "creaking": {
+          "name": "Creaking"
+        },
+        "happyGhast": {
+          "name": "Glad ghast"
+        },
+        "header": {
+          "vanilla": {
+            "name": "Vanilla-mobs"
+          },
+          "v1_12_2": {
+            "name": "Tilføjet i 1.9 - 1.12"
+          },
+          "v1_16_5": {
+            "name": "Tilføjet i 1.13 - 1.16"
+          },
+          "v1_17_1": {
+            "name": "Tilføjet i 1.17"
+          },
+          "v1_19_4": {
+            "name": "Tilføjet i 1.19"
+          },
+          "v1_20_1": {
+            "name": "Tilføjet i 1.20"
+          },
+          "v1_20_6": {
+            "name": "Tilføjet i 1.20.5"
+          },
+          "v1_21_4": {
+            "name": "Tilføjet i 1.21.4"
+          },
+          "v1_21_8": {
+            "name": "Tilføjet i 1.21.6"
+          }
+        }
+      },
+      "advanced": {
+        "name": "Avanceret",
+        "description": "Indstillinger der rækker ud over render-laget.",
+        "changeEyeHeight": {
+          "name": "Ændr øjenhøjde",
+          "description": "Advarsel: dette flytter dit kamera sammen med modellen i stedet for kun at ændre billedet. Servere kan måle øjenpositionen, så anticheats kan reagere på det. Lad den være slået fra, medmindre du ved at serveren tillader det."
+        }
+      }
+    }
+  }
+}
